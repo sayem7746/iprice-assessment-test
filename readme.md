@@ -2,8 +2,6 @@ composer require --dev phpunit/phpunit
 
 # iprice assessment
 
-One Paragraph of project description goes here
-
 ## Problem
 
 Using object-oriented concepts, create a CLI tool that accepts a string and does the following to it:
@@ -14,13 +12,36 @@ Using object-oriented concepts, create a CLI tool that accepts a string and does
 Make sure the code unit-testable and extendable. We would like to see a piece of code as you would do on your daily task
 
 ### Sample Input
+```
 hello world
-
+```
 ### Sample Output
+```
 HELLO WORLD
 hElLo wOrLd
 CSV created!
+```
 
 ### Note: 
 a CSV file is created on the root directory which containing the following: 
+```
 h,e,l,l,o, ,w,o,r,l,d
+```
+
+## Installation
+Run following command to install dependencies
+```
+composer install
+```
+
+## Execute script from CLI
+Run following command from terminal
+```
+php index.php
+```
+
+## Unit Tests
+Run following command from terminal
+```
+phpunit
+```
