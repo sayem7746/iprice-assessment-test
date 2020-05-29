@@ -34,6 +34,14 @@ Run following command to install dependencies
 composer install
 ```
 
+## Input file
+Please add input string to the following file in root directory
+```
+input.txt
+```
+If you want to have multiple input string to test, then keep each string in seperate line.
+
+
 ## Execute script from CLI
 Run following command from terminal
 ```
