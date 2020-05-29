@@ -1,5 +1,3 @@
-composer require --dev phpunit/phpunit
-
 # iprice assessment
 
 ## Problem
